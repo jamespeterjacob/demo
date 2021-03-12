@@ -33,7 +33,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "./",
   "display": "minimal-ui",
   "background_color": "#32499c",
   "theme_color": "#32499c"
