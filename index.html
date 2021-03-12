@@ -4601,7 +4601,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('https://demo.ceferin.com/demo_sw.js')
+                navigator.serviceWorker.register('./demo_sw.js')
                     .then((reg) => {
                         console.log('Service worker registered.', reg);
                     });
